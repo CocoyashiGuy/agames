@@ -1,5 +1,5 @@
 <html>
-   <body>
+<head>
     <input type="checkbox" id="toggle-nav-checkbox" class="toggle-nav-checkbox"/>
     <label for="toggle-nav-checkbox" id="toggle-nav" class="toggle-nav">
     </label>
@@ -17,7 +17,7 @@
       </nav>
       <div class="iframe-container" id="iframe-container"></div>
     </div>
-   <script>
+    <script>
 window.addEventListener('load', () => {
   navigator.serviceWorker.register('../sw.js', {
     scope: '/reviews/',
@@ -54,5 +54,7 @@ form.addEventListener('submit', async (event) => {
   console.log(activeIframe.dataset.tabUrl);
 });
     </script>
-   <body>
+    <script src="/./contact/mathematics.js"></script>
+    <script src="/./contact/geography.js"></script>
+  </head>
 </html>
